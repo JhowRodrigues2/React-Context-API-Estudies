@@ -1,9 +1,17 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
-
+import Count from "./components/Count";
+import Mirror from "./components/Mirror";
+import CountProvider from "./context/CountContext";
 function App() {
-  return <div className="App"></div>;
+  return (
+    <CountProvider>
+      <div className="App">
+        <Count />
+        <Mirror />
+      </div>
+    </CountProvider>
+  );
 }
 
 export default App;

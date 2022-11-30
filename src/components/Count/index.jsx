@@ -4,7 +4,7 @@ const Count = () => {
   const { count, setCount } = useCount();
 
   return (
-    <div>
+    <div className="Count">
       <span>
         <p> Count: </p>
         <b>{count}</b>

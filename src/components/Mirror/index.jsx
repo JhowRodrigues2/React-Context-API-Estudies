@@ -5,10 +5,12 @@ const Mirror = () => {
   const { count } = useCount();
 
   return (
-    <span>
-      <p>Mirror:</p>
-      <b> {count}</b>
-    </span>
+    <div className="Mirror">
+      <span>
+        <p>Mirror:</p>
+        <b> {count}</b>
+      </span>
+    </div>
   );
 };
 

@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.App {
+  border: 1px solid gray;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+.Count {
+  font-size: 30px;
+  border-bottom: 4px solid gray;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.Count button {
+  cursor: pointer;
+  height: 40px;
+  background-color: rgb(102, 171, 235);
+  color: white;
+  border: none;
+}
+.Count button:hover {
+  background-color: rgb(78, 130, 179);
+}
+.Mirror {
+  font-size: 30px;
+  padding-left: 21px;
+}
